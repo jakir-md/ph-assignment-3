@@ -56,7 +56,7 @@
                     <li><a href="">Contact US</a></li>
                   </ul>
                 </div>
-                <div class="lg:hidden flex flex-end bg-white p-3 border rounded-full">
+                <div class="lg:hidden flex flex-end absolute right-4 bg-white p-3 border rounded-full">
                     <i class="fa-solid fa-bars h-4 w-6 text-center text-gray-400"></i>
                 </div>
                 <div class="hidden navbar-end lg:flex gap-3">
@@ -242,13 +242,14 @@
                 </a>
                 <h1 class="lg:text-4xl text-3xl font-bold pt-5">Frequently Asked Questions</h1>
             </div>
-            <div class="lg:w-3/4 mx-auto my-10 mt-0 lg:flex flex flex-col-reverse gap-5">
+            <div class="lg:w-3/4 mx-auto my-10 mt-0 lg:flex flex lg:flex-row flex-col-reverse gap-5">
                 <div class="review-texts lg:w-1/2">
                     <div class="collapse collapse-arrow bg-base-200">
                         <input type="radio" name="my-accordion-2" checked="checked" />
                         <div class="collapse-title text-xl font-medium">What are the steps to buying a home?</div>
                         <div class="collapse-content">
-                          <p>This typically includes getting pre-approved for a mortgage, finding a real estate agent, viewing homes, making an offer, getting an inspection, and closing. The timeline varies based on market conditions, but it typically takes 30-60 days from offer to close. The process may be quicker in a fast-moving market or longer if complexities arise.</p>
+                          <p class="text-wrap">This typically includes getting pre-approved for a mortgage, finding a real estate agent, viewing homes, making an offer, getting an inspection, and closing. The timeline varies based on market conditions, but it typically takes 30-60 days from offer to close. The process may be quicker in a fast-moving market or longer if complexities arise.
+                          </p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow bg-base-200 mt-5">
@@ -284,7 +285,7 @@
                     <p class="lg:w-3/4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
 
-                <form action="" class="mt-10">
+                <form action="" class="mt-10 pb-10">
                     <div class="lg:grid lg:grid-cols-2 gap-5">
                         <input type="text" placeholder="First Name*" class="input rounded-full w-full" />
                         <input type="text" placeholder="Last Name*" class="input  mt-5 lg:mt-0 rounded-full w-full" />
@@ -292,7 +293,7 @@
                         <input type="text" placeholder="Email Number*" class=" mt-5 lg:mt-0 input mb-5 rounded-full w-full" />
                     </div>
                     <textarea name="" id="" class="textarea rounded-3xl w-full" placeholder="Write Your Message Here.." cols="30" rows="8"></textarea>
-                    <button class="bg-primary-deep w-full py-2 px-3 font-extrabold text-xl rounded-full flex justify-center gap-1">
+                    <button class="bg-primary-deep w-full py-2 px-3 mt-5 font-extrabold text-xl rounded-full flex justify-center gap-1">
                         Send Mail
                         <div class=" bg-black border rounded-full">
                             <i class="fa-solid fa-arrow-right h-5 w-7 text-center -rotate-45 text-white rounded-full"></i>
@@ -301,7 +302,33 @@
                 </form> 
             </div>
         </section>
-
     </main>
+
+    <footer class="bg-black mt-10 py-10">
+        <div class="footer-section lg:w-3/4 mx-auto text-center">
+            <a class="btn btn-ghost text-xl">
+                <div class="bg-primary-deep rounded-full">
+                    <i class="fa-solid fa-arrow-right p-2 -rotate-45"></i>
+                </div>
+                    <h1 class="text-xl font-extrabold text-white">Rinterio</h1>
+            </a>
+            <p class="text-gray-400 w-3/4 mx-auto my-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="navbar-center ">
+                <ul class="menu menu-horizontal px-1 lg:flex lg:justify-between block">
+                  <li><a class="text-white mx-auto" href="">Home</a></li>
+                  <li><a class="text-white mx-auto" href="">Services</a></li>
+                  <li><a class="text-white mx-auto" href="">Portfolio</a></li>
+                  <li><a class="text-white mx-auto" href="">Blogs</a></li>
+                  <li><a class="text-white mx-auto" href="">Contact US</a></li>
+                </ul>
+            </div>
+            <button class="bg-primary-deep w-44 mt-5 mx-auto py-2 px-3 font-bold rounded-full flex gap-1">
+                Book Consult
+                <div class=" bg-black border rounded-full">
+                    <i class="fa-solid fa-arrow-right h-5 w-7 text-center -rotate-45 text-white rounded-full"></i>
+                </div>
+            </button>
+        </div>
+    </footer>
 </body>
 </html>
