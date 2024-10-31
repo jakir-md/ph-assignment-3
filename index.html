@@ -4,14 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    
     <!-- daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google manrope font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/5f80b93dd1.js" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Jakir</h1>
+<body class="manrope-font">
+    <!-- navigation menu  -->
+    <header class="bg-gradient-to-b from-gray-200 to-gray-50">
+        <nav class="lg:w-3/4 lg:mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="font-bold" href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact US</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">
+                    <div class="bg-primary-deep rounded-full">
+                        <i class="fa-solid fa-arrow-right p-2 -rotate-45"></i>
+                    </div>
+                        <h1 class="text-xl font-extrabold">Rinterio</h1>
+                  </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-bold" href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Contact US</a></li>
+                  </ul>
+                </div>
+                <div class="lg:hidden flex flex-end bg-white p-3 border rounded-full">
+                    <i class="fa-solid fa-bars h-4 w-6 text-center text-gray-400"></i>
+                </div>
+                <div class="hidden navbar-end lg:flex gap-3">
+                    <div class="bg-white p-3 border rounded-full">
+                        <i class="fa-solid fa-magnifying-glass  h-4 w-6 text-center text-gray-400"></i>
+                    </div>
+                    <div class="bg-white p-3 border rounded-full">
+                        <i class="fa-solid fa-cart-shopping h-4 w-6 text-center text-gray-400"></i>
+                    </div>
+                    <button class="bg-primary-deep w-48 py-2 px-3 font-extrabold text-xl rounded-full flex gap-1">
+                        Book Consult
+                        <div class=" bg-black border rounded-full">
+                            <i class="fa-solid fa-arrow-right h-5 w-7 text-center -rotate-45 text-white rounded-full"></i>
+                        </div>
+                    </button>
+                </div>
+              </div>
+        </nav>
+        <!-- hero section -->
+        <div class="hero-section">
+            <img class="mx-auto mb-5 p-10 lg:p-0" src="assets/banner.png" alt="">
+            <div class="w-3/4 mx-auto mb-5 text-center">
+                <h1 class="lg:text-4xl text-3xl mb-5 font-black">A barn house of this design has a <br> striking appearance</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            </div>
+            <button class="bg-primary-light mx-auto py-2 px-3 font-extrabold text-xl rounded-full flex gap-2">
+                Book Consult
+                <div class=" bg-black border rounded-full">
+                    <i class="fa-solid fa-arrow-right h-5 w-7 text-center -rotate-45 text-white rounded-full"></i>
+                </div>
+            </button>
+        </div>
+    </header>
 </body>
 </html>

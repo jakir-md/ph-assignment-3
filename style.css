@@ -1,0 +1,25 @@
+
+/* shared styles */
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-primary-deep{
+    background-color: rgb(171, 239, 95, 1);
+}
+.bg-primary-light{
+    background-color: rgba(171, 239, 95, 0.5)
+}
+.txt-primary{
+    color: rgb(115, 115, 115);
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+}
+/* header design */
+header {
+    background-color: linear-gradient(1.00deg, rgb(240, 240, 240),rgba(255, 255, 255, 0) 100%);
+}
